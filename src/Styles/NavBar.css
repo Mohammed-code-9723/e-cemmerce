@@ -1,0 +1,41 @@
+.navbar{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: sticky;
+    width: 100%;
+    transition: 2s;
+}
+.links{
+    text-decoration: none;
+    font-size: large;
+    color: black;
+}
+#logo{
+    border-radius: 50%;
+}
+.active{
+    border-bottom: 2px solid ;
+    padding: 10px;
+}
+
+@media screen and (max-width:700px) {
+    .navbar{
+        flex-direction: column;
+        justify-content: center;
+    }
+    .links{
+        margin:10px 0;
+    }
+}
+#closeNav{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    font-size:40px;
+    height: 20px;
+    text-align: center;
+    padding:0 10px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    cursor: pointer;
+}

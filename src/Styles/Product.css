@@ -1,0 +1,15 @@
+.Product{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+.item{
+    border-radius: 40px;
+}
+.ret{
+    text-decoration: none;
+    font-size: 20px;
+    margin-left: 30px;
+    margin-top: 10px;
+}

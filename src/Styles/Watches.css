@@ -1,0 +1,63 @@
+.wCont{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    width: 100%;
+    height: auto;
+}
+.watc{
+    margin-bottom: 50px;
+    text-align: center;
+}
+.card{
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    transition: 0.5s;
+    overflow: hidden;
+}
+.link{
+    text-decoration: none;
+    font-size: 18px;
+}
+.price,.name{
+    color: rgb(0, 0, 0);
+}
+
+.watc:hover{
+    box-shadow: 0 0 10px black;
+    border-radius: 20px;
+    
+}
+.pics{
+    border-radius: 20px;
+    transition: 0.5s;
+}
+.card:hover .pics{
+    transform: scale(1.1);
+}
+.add {
+    background-color: #2294ff; 
+    color: #fff; 
+    padding: 15px 20px; 
+    border: none;
+    border-radius: 25px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s;
+    width: 90%;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 10px;
+}
+.add:hover {
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.699); 
+    background-color: #0761d6;
+    transition: background-color 0.3s;
+    text-shadow:0 0 5px white;
+}

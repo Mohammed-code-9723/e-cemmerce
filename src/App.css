@@ -1,0 +1,15 @@
+
+.pan::-webkit-scrollbar{
+    width: 8px; 
+    height: 5px;
+    
+}
+.pan::-webkit-scrollbar-track {
+    background: #ffffff; 
+    
+}
+  
+.pan::-webkit-scrollbar-thumb {
+    background: #1e83e2; 
+    
+  }
